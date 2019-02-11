@@ -12,7 +12,7 @@ table {
     margin-left: auto;
 }
 td {
-  width: 33.333%;
+  width: 13.3%;
 }
 td:after {
   content: '';
@@ -39,14 +39,8 @@ td:nth-of-type(3) {
 }
 tr:nth-of-type(3) td {
   border-bottom-color: transparent;
-} </code>
-</pre>
+} 
     
-    
-    <pre><code class="css">table {
-  width: 100%;
-  border-collapse: collapse;
-}
 td {
   width: 33.333%;
   border: 6px solid #222;
