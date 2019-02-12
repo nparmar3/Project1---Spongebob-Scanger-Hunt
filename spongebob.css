@@ -1,3 +1,4 @@
+
 .button {
   padding: 15px 25px;
   font-size: 24px;
@@ -17,7 +18,7 @@
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
-  
+
 }
 .container {
   position: relative;
@@ -40,7 +41,7 @@
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: 5s ease;
+  transition: .5s ease;
   background-color: #3e8e41;
 }
 
@@ -58,4 +59,19 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+body {
+    font: "Bookman Old Style";
+    background-image: "spongebob.jpg";
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+}
+
+td {
+  width: 175px;
+  height: 175px;
 }
