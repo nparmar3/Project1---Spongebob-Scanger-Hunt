@@ -6,17 +6,17 @@
   cursor: pointer;
   outline: none;
   color: #fff;
-  background-color: #4CAF50;
+  background-color: orange;
   border: none;
   border-radius: 15%;
-  box-shadow: 0 9px #999;
+  box-shadow: 0 9px yellow;
 }
 
-.button:hover {background-color: #3e8e41}
+.button:hover {background-color: orange}
 
 .button:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
+  background-color: orange;
+  box-shadow: 0 5px yellow;
   transform: translateY(4px);
 
 }
@@ -42,7 +42,7 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #3e8e41;
+  background-color: orange;
 }
 
 .container:hover .overlay {
@@ -61,14 +61,17 @@
   text-align: center;
 }
 body {
-    font: Bookman Old Style;
-    background-image: "spongebobback.jpg";
+    background-image: url(spongebobback.jpg);
+	background-color: beige;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 h1 {
     text-align: center;
+	font: Bookman Old Style;
+	background-color: yellow;
+	border: 4px dashed orange;
 }
 
 table {
