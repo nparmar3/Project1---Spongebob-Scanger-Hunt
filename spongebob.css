@@ -1,6 +1,6 @@
 
 .button {
-  padding: 15px 25px;
+  padding: 5px  10px;
   font-size: 24px;
   text-align: center;
   cursor: pointer;
@@ -61,8 +61,8 @@
   text-align: center;
 }
 body {
-    font: "Bookman Old Style";
-    background-image: "spongebob.jpg";
+    font: Bookman Old Style;
+    background-image: "spongebobback.jpg";
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -71,6 +71,10 @@ h1 {
     text-align: center;
 }
 
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
 td {
   width: 175px;
   height: 175px;
