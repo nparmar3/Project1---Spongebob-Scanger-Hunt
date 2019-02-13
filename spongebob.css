@@ -69,25 +69,10 @@ td {
   opacity: 0;
   transition: 3.5s;
 	}
-#div1 {
-	transition-timing-function: linear;
-	}
 
 .container:hover .overlay {
   opacity: 1;
 	}
-
-.text {
-  color: blue;
-  font-size: 20px;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
 
 img.thumb {
   display: block;
